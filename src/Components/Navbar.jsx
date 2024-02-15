@@ -8,7 +8,7 @@ import { NavDropdown } from 'react-bootstrap'
 export default function Navcom() {
   return (
     <Navbar expand="lg" className="dark">
-    <Container>
+    <Container className='contain'>
       <Navbar.Brand className='nav-brand'><img src="./assest/logo/logo.png" alt="logo" className='logo-img' /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav ">
@@ -48,7 +48,7 @@ export default function Navcom() {
             <NavDropdown.Item>Installation Services</NavDropdown.Item>
           </NavDropdown>
           {/* Whatsapp button */}
-          <Nav.Item><button className='Whatapp-btn'><img src="./assest/Whatsapp icon.png" alt="whatsapp"/>Whatsapp</button></Nav.Item>
+          <Nav.Item className='nav-item'><button className='Whatapp-btn'><img src="./assest/Whatsapp icon.png" alt="whatsapp"/>Whatsapp</button></Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Container>

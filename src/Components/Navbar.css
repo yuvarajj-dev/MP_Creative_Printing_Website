@@ -8,13 +8,20 @@
     font-weight: 400;
 }
 .dark{
-    background-color: #fa4848!important;
+    background-color: #fcdfb0!important;
 }
 .nav-brand{
     width: 20%;
 }
 .logo-img{
     width: 90%;
+}
+#basic-nav-dropdown{
+    margin: 0 10px 0 10px;
+    padding-top: 10px;
+}
+.nav-item{
+    padding: 5px 0 0 0;
 }
 .Whatapp-btn img{
     width: 20%;
@@ -33,7 +40,7 @@
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-    width: 40%;
+    width: 60%;
     margin: 0 0 0 40px;
   }
   
@@ -55,17 +62,33 @@
     .logo-img{
         width: 100%;
     }
-    .Whatapp-btn{
-        width: 80%;
+    .nav-item{
+        padding: 10px 0 0 0!important;
     }
+    .Whatapp-btn{
+        width: 90%;
+    }
+   
 }
 @media (width <= 992px){
-    
+    *{
+        font-size: 18px;
+    }
+    .nav-brand{
+        width: 30%;
+    }
+    .logo-img{
+        width: 100%;
+    }
+    .Whatapp-btn{
+        width: 30%;
+        margin: 10px 0 0 40%;
+    }
 }
 
 @media (width <= 768px){
     .logo-img{
-        width: 10   0%;
+        width: 70%;
     }
     .Whatapp-btn{
         width: 30%;
