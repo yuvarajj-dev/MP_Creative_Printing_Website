@@ -14,8 +14,8 @@ export default function Navcom() {
       <Navbar.Collapse id="basic-navbar-nav ">
         <Nav className="me-auto">
             {/* Printing Materials section */}
-          <NavDropdown title="Printing Material" id="basic-nav-dropdown">
-            <NavDropdown.Item>Brochures</NavDropdown.Item>
+          <NavDropdown  title="Printing Material" id="basic-nav-dropdown">
+            <NavDropdown.Item >Brochures</NavDropdown.Item>
             <NavDropdown.Item>Calendars</NavDropdown.Item>
             <NavDropdown.Item>Business Cards</NavDropdown.Item>
             <NavDropdown.Item>Greeting Cards</NavDropdown.Item>
