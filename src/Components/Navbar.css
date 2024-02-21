@@ -6,6 +6,7 @@
     font-size: 17px;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 400;
+    position: relative;
 }
 .dark{
     background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);

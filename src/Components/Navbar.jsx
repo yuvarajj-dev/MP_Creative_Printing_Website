@@ -7,7 +7,7 @@ import { NavDropdown } from 'react-bootstrap'
 
 export default function Navcom() {
   return (
-    <Navbar expand="lg" className="dark">
+    <Navbar expand="lg" className="dark fixed-top ">
     <Container className='contain'>
       <Navbar.Brand className='nav-brand'><img src="./assest/logo/logo.png" alt="logo" className='logo-img' /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
